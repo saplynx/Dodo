@@ -4,14 +4,9 @@ void main() {
   runApp(DodoApp());
 }
 
-class DodoApp extends StatefulWidget {
+class DodoApp extends StatelessWidget {
   const DodoApp({super.key});
 
-  @override
-  State<DodoApp> createState() => _DodoAppState();
-}
-
-class _DodoAppState extends State<DodoApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -32,7 +27,7 @@ class _HomepageState extends State<Homepage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text('hello there!'),
+        child: Text('hellosfdsaf there!'),
       ),
     );
   }
